@@ -1,0 +1,27 @@
+.footer {
+    padding: 2px;
+    bottom: 0;
+    flex-grow: 1;
+    z-index: 1;
+    text-align: center;
+}
+
+.footer>p:hover {
+    text-decoration-style: none;
+}
+
+.footer_name {
+    color: black;
+    font-size: small;
+}
+
+.footer_copyright {
+    color: black;
+}
+
+.footer_name:hover {
+    color: rgb(53, 46, 11);
+    font-size: small;
+    cursor: pointer;
+    text-decoration-style: none;
+}
